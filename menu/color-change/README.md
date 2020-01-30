@@ -20,9 +20,9 @@ jQuery(document).ready(function( $ ) {
       $('.header').removeClass('header-scrolled');
     } 
   });
-  
+  //make scroll up smart in any position
     if ($(window).scrollTop() > 100) {
-    $('#header').addClass('header-scrolled');
+    $('.header').addClass('header-scrolled');
     }
   
 });
